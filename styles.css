@@ -1,0 +1,225 @@
+/*Css for navbar*/
+.navbar {
+
+    body,
+    html {
+        margin: 0;
+        padding: 0;
+    }
+
+    .header {
+        border-top: 1px solid white;
+        background: white;
+        color: #333;
+        height: 150px;
+        width: 100%;
+        font-family: 'Lobster', cursive;
+        text-align: center
+    }
+
+    .menu {
+        height: 80px;
+        width: 100%;
+        background: #333;
+        color: white;
+        text-align: center;
+    }
+
+    .wrapper {
+        height: 2000px;
+        width: 100%;
+        padding-top: 20px
+    }
+
+    .fixed {
+        position: fixed;
+        top: 0
+    }
+}
+
+.logo {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+/*Css for slogan*/
+.slogan {
+    font-family: 'Pacifico', cursive;
+    color: #e2e05d;
+    font-size: larger;
+}
+
+/*Css for caroussel*/
+.carousell {
+    background: rgb(11, 11, 11);
+    padding: 200px;
+}
+
+.d-item {
+    height: 800px;
+}
+
+.d-img {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+
+/*Css for all descripcion section*/
+.containerBody {
+    text-align: justify;
+    height: 600px;
+    background-color: white;
+    padding: 50px;
+    font-family: 'Lugrasimo', cursive;
+}
+
+/*Css for descripcion text*/
+.text {
+    text-align: justify;
+    height: 500px;
+    background-color: white;
+    padding: 50px;
+}
+
+/*Css for footer*/
+footer {
+    min-height: 500px;
+    background: rgb(11, 11, 11);
+    font-family: 'Pacifico', cursive;
+}
+
+.footer-logo {
+    height: 100px;
+    width: 250px;
+    margin: 10px;
+}
+
+.social-media a {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+}
+
+.social-media i {
+    color: white;
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in;
+}
+
+.social-media a:hover {
+    color: white;
+    border: 2px solid rgb(13, 110, 253)
+}
+
+.social-media a:hover i {
+    color: black;
+}
+
+.derechos-de-autor {
+    font-size: 80%;
+    color: #aeaeae;
+    padding: 20px;
+    text-align: center;
+}
+
+/*Css for form*/
+form {
+    background-image: url("img/bgform.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin: 50px auto;
+    padding: 20px;
+    font-family: 'Pacifico', cursive;
+    max-width: 500px;
+}
+
+/*Css for Form name */
+.form_name {
+    font-family: 'Pacifico', cursive;
+    color: #030303e3;
+    font-size: larger;
+    margin: 30px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    border: 1px solid #030000;
+    border-radius: 3px;
+    padding: 5px;
+    width: 100%;
+}
+
+input[type="submit"] {
+    background-color: #00aeff;
+    border: none;
+    color: #200202;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 3px;
+    transition: background-color 0.2s;
+}
+
+input[type="submit"]:hover {
+    background-color: #fc0000;
+}
+
+.form {
+    background-color: #ffffff;
+
+}
+
+/*Css for Services*/
+
+.servicios {
+    background-color: rgb(246, 235, 77);
+    padding: 200px;
+    font-family: 'Pacifico', cursive;
+    color: #1500ff;
+
+    .round-frame {
+        width: 300px;
+        height: 300px;
+        border-radius: 150px;
+    }
+}
+
+.proximamente {
+    background: rgb(11, 11, 11);
+    padding: 200px;
+    font-family: 'Pacifico', cursive;
+    color: black;
+
+    .round-frame {
+        width: 300px;
+        height: 300px;
+        border-radius: 150px;
+    }
+}
+
+/*Css for Services*/
+.exit{
+font-family: 'Pacifico', cursive;
+}
